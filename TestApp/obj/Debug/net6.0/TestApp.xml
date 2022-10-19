@@ -4,10 +4,44 @@
         <name>TestApp</name>
     </assembly>
     <members>
+        <member name="M:TestApp.Controllers.UserController.GetUserName(System.Int32)">
+            <summary>
+            取得使用者名稱
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApp.Controllers.UserController.GetInfo(System.Int32)">
+            <summary>
+            取得帳號資訊
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:TestApp.Controllers.WeatherForecastController.Get">
             <summary>
             取得各地天氣
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestApp.Controllers.WorkController.GetTodoList">
+            <summary>
+            取得列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestApp.Services.AccountService.GetUser(System.Int32)">
+            <summary>
+            取得使用者資訊
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApp.Services.UserService.GetUserName(System.Int32)">
+            <summary>
+            取得使用者名稱
+            </summary>
+            <param name="userId"></param>
             <returns></returns>
         </member>
     </members>

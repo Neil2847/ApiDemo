@@ -56,3 +56,16 @@
 /Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/obj/Debug/net6.0/TestApp.pdb
 /Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/obj/Debug/net6.0/TestApp.genruntimeconfig.cache
 /Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/obj/Debug/net6.0/ref/TestApp.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
