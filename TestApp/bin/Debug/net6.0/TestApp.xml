@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestApp</name>
+    </assembly>
+    <members>
+        <member name="M:TestApp.Controllers.WeatherForecastController.Get">
+            <summary>
+            取得各地天氣
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
