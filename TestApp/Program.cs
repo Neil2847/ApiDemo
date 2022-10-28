@@ -1,5 +1,6 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using TestApp.Models;
 using TestApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,24 +14,28 @@ builder.Services.AddSwaggerGen(options =>
 {
     // 這邊是設定自動讀取註解說明
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory,xmlFilename));
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
 // 注入服務
 builder.Services.AddScoped<UserService>();
 builder.Services.AddSingleton<AccountService>();
-
-// 這邊是加入EntityFramework DI
-builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList"));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddScoped<WorkService>();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseExceptionHandler("/Error");
     app.UseSwagger();
     app.UseSwaggerUI();
+    
+    // app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler("/Error");
 }
 
 app.UseHttpsRedirection();

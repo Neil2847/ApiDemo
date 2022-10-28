@@ -1,8 +1,12 @@
-namespace TestApp;
+using System.Collections;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace TestApp.Models;
 
 public class User
 {
-    public string Name { get; set; }
-    public int Id { get; set; }
-    public int age { get; set; }
+    [DefaultValue("NoSet")] public string Name { get; set; } = "NoSet1";
+    [DefaultValue(443)] [Required] public int Id { get; set; }
+    [DefaultValue(18)] public int age { get; set; }
 }

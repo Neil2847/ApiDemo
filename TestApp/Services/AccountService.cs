@@ -1,3 +1,5 @@
+using TestApp.Models;
+
 namespace TestApp.Services;
 
 public class AccountService
