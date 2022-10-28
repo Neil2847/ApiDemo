@@ -6,43 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ad3782-56c0-4b0b-b48c-fb4a3401ea4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NJsonSchema.Yaml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NJsonSchema.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NSwag.Annotations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NSwag.AspNetCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NSwag.Core.Yaml.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NSwag.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NSwag.Generation.AspNetCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/NSwag.Generation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Namotion.Reflection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/YamlDotNet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/TestApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/TestApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/Controllers/ErrorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Controllers/ErrorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/Controllers/WorkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Controllers/WorkController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +93,7 @@
       <workItem from="1666751682436" duration="19247000" />
       <workItem from="1666836982058" duration="1817000" />
       <workItem from="1666849313788" duration="11998000" />
-      <workItem from="1666928162510" duration="8441000" />
+      <workItem from="1666928162510" duration="12168000" />
     </task>
     <servers />
   </component>

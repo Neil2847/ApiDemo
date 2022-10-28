@@ -27,7 +27,7 @@ public class WorkController : ApiBaseController
         var user = await _service.GetUserById(id);
         if (user != null)
         {
-            // throw new IOException("自己引發的錯誤");
+            throw new Exception();
             return Ok(user);
         }
 

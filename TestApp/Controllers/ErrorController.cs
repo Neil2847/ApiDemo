@@ -21,7 +21,7 @@ public class ErrorController : ApiBaseController
     /// </summary>
     /// <returns></returns>
     [Route("/Error")]
-    public ActionResult Error()
+    public IActionResult ErrorHandler()
     {
         const int statusCode = (int)HttpStatusCode.InternalServerError;
         var feature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
@@ -38,6 +38,11 @@ public class ErrorController : ApiBaseController
             Error = ex
         };
 
-        return StatusCode(statusCode, problemDetails);
+        // return StatusCode(statusCode, problemDetails);
+        // 這邊已經有回應 error handler 的功能，目前還沒有找到自定義錯誤Model
+        return Problem(
+            detail: feature?.Error.StackTrace,
+            title: feature?.Error.Message
+        );
     }
 }

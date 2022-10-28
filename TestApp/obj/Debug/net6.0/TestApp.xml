@@ -4,7 +4,7 @@
         <name>TestApp</name>
     </assembly>
     <members>
-        <member name="M:TestApp.Controllers.ErrorController.Error">
+        <member name="M:TestApp.Controllers.ErrorController.ErrorHandler">
             <summary>
             沒有攔截到的例外處理
             </summary>
