@@ -25,18 +25,13 @@ public class WorkController : ApiBaseController
     public async Task<IActionResult> GetById(int id)
     {
         var user = await _service.GetUserById(id);
-        if (user != null)
-        {
-            throw new Exception();
-            return Ok(user);
-        }
 
-        return NotFound(new MyError
+        return id switch
         {
-            Code = 404,
-            Message = "Not found user",
-            Action = 3
-        });
+            < 0 => throw new Exception(),
+            > 0 and < 100 => Ok(user),
+            _ => NotFound(new MyError { Code = 404, Message = "Not found user", Action = 3 })
+        };
     }
 
     /// <summary>

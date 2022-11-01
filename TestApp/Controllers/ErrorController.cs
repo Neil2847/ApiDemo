@@ -16,8 +16,23 @@ public class ErrorController : ApiBaseController
         _isDev = hostEnvironment.IsDevelopment();
     }
 
+    [Route("/ErrorDev")]
+    public IActionResult ErrorHandlerDev()
+    {
+        const int statusCode = (int)HttpStatusCode.InternalServerError;
+        var feature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+
+        return StatusCode(statusCode, new MyError
+        {
+            Action = 3,
+            Code = statusCode,
+            Message = feature?.Error.Message
+        });
+    }
+
+
     /// <summary>
-    /// 沒有攔截到的例外處理
+    /// 「正式區」沒有攔截到的例外處理
     /// </summary>
     /// <returns></returns>
     [Route("/Error")]

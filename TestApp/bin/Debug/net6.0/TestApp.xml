@@ -6,7 +6,7 @@
     <members>
         <member name="M:TestApp.Controllers.ErrorController.ErrorHandler">
             <summary>
-            沒有攔截到的例外處理
+            「正式區」沒有攔截到的例外處理
             </summary>
             <returns></returns>
         </member>

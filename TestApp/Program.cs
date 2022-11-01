@@ -21,7 +21,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     // Add ErrorHandler
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/ErrorDev");
     // Add NSwag
     app.UseOpenApi();
     app.UseSwaggerUi3();
