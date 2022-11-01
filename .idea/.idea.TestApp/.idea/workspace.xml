@@ -8,15 +8,10 @@
     <list default="true" id="67ad3782-56c0-4b0b-b48c-fb4a3401ea4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/Controllers/ErrorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Controllers/ErrorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Controllers/WorkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Controllers/WorkController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +88,8 @@
       <workItem from="1666751682436" duration="19247000" />
       <workItem from="1666836982058" duration="1817000" />
       <workItem from="1666849313788" duration="11998000" />
-      <workItem from="1666928162510" duration="12168000" />
+      <workItem from="1666928162510" duration="12200000" />
+      <workItem from="1667269483723" duration="2678000" />
     </task>
     <servers />
   </component>

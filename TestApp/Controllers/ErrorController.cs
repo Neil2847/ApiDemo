@@ -28,6 +28,7 @@ public class ErrorController : ApiBaseController
         var ex = feature?.Error;
         var traceId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
 
+        // 已經可以不用繼承 ProblemDetails 來承接錯誤訊息，可以直接透過自定義的Models來定義
         var problemDetails = new RequestProblemDetails
         {
             Status = statusCode,
@@ -38,8 +39,13 @@ public class ErrorController : ApiBaseController
             Error = ex
         };
 
-        // return StatusCode(statusCode, problemDetails);
-        // 這邊已經有回應 error handler 的功能，目前還沒有找到自定義錯誤Model
+        return StatusCode(statusCode, new MyError
+        {
+            Action = 0,
+            Code = statusCode,
+            Message = feature?.Error.Message
+        });
+        // 直接呼叫Problem的方式吐出錯誤訊息，這個錯誤格式是原本的，上方是自定義的格式
         return Problem(
             detail: feature?.Error.StackTrace,
             title: feature?.Error.Message
