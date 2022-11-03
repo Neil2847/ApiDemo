@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>776</IntrospectionStateNumber>
+      <IntrospectionStateNumber>795</IntrospectionStateNumber>
       <ServerVersion>15.0</ServerVersion>
       <StartupTime>1667446258</StartupTime>
       <TimeZones>true ACDT
@@ -818,7 +818,7 @@ false Zulu
 13471||10|C|G
 13471||-9223372036854775808|U|G
 13471||10|U|G</Grants>
-      <IntrospectionStateNumber>776</IntrospectionStateNumber>
+      <IntrospectionStateNumber>795</IntrospectionStateNumber>
       <ObjectId>16390</ObjectId>
       <Relations>sequence|table|16392|16393|3
 </Relations>
@@ -4242,7 +4242,7 @@ false Zulu
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <schema id="265" parent="4" name="sp">
-      <IntrospectionStateNumber>776</IntrospectionStateNumber>
+      <IntrospectionStateNumber>795</IntrospectionStateNumber>
       <ObjectId>16391</ObjectId>
       <StateNumber>749</StateNumber>
       <OwnerName>mac</OwnerName>
@@ -4255,52 +4255,62 @@ false Zulu
     </sequence>
     <table id="267" parent="265" name="UserSocials">
       <ObjectId>16405</ObjectId>
-      <StateNumber>775</StateNumber>
+      <StateNumber>794</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>mac</OwnerName>
     </table>
     <table id="268" parent="265" name="Users">
       <ObjectId>16393</ObjectId>
-      <StateNumber>753</StateNumber>
+      <StateNumber>794</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>mac</OwnerName>
     </table>
-    <column id="269" parent="267" name="UserId">
-      <DataType>integer|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>775</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="270" parent="267" name="Type">
+    <column id="269" parent="267" name="Type">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>775</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="271" parent="267" name="Token">
+    <column id="270" parent="267" name="Token">
       <DataType>varchar(300)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>775</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="272" parent="268" name="email">
+    <column id="271" parent="267" name="UserId">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>791</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="272" parent="267" name="UserSocials_Users_fk">
+      <ColNames>UserId</ColNames>
+      <ObjectId>16409</ObjectId>
+      <RefColNames>Id</RefColNames>
+      <RefColPositions>3</RefColPositions>
+      <StateNumber>794</StateNumber>
+      <RefTableId>16393</RefTableId>
+      <RefTableName>Users</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <column id="273" parent="268" name="email">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>758</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="273" parent="268" name="displayname">
+    <column id="274" parent="268" name="displayname">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>760</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="274" parent="268" name="Id">
+    <column id="275" parent="268" name="Id">
       <DataType>integer|0s</DataType>
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
@@ -4308,7 +4318,7 @@ false Zulu
       <StateNumber>753</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="275" parent="268" name="Id">
+    <index id="276" parent="268" name="Id">
       <ColNames>Id</ColNames>
       <ObjectId>16396</ObjectId>
       <Primary>1</Primary>
@@ -4316,7 +4326,7 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="276" parent="268" name="Id">
+    <key id="277" parent="268" name="Id">
       <ObjectId>16397</ObjectId>
       <Primary>1</Primary>
       <StateNumber>753</StateNumber>

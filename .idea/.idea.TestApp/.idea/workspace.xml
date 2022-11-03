@@ -6,16 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ad3782-56c0-4b0b-b48c-fb4a3401ea4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/sp.XQ4AAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/sp.XQ4AAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Context/MyDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/Entities/UserSocial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Entities/UserSocial.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/TestApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/TestApp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
@@ -111,7 +112,10 @@
       <workItem from="1667380375326" duration="4121000" />
       <workItem from="1667442152247" duration="12187000" />
       <workItem from="1667457445327" duration="2066000" />
-      <workItem from="1667460466767" duration="3921000" />
+      <workItem from="1667460466767" duration="3976000" />
+      <workItem from="1667465501489" duration="4801000" />
+      <workItem from="1667470328164" duration="617000" />
+      <workItem from="1667470950167" duration="463000" />
     </task>
     <servers />
   </component>

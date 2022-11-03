@@ -51,6 +51,12 @@ namespace TestApp.Context
                 entity.ToTable("UserSocials", "sp");
 
                 entity.Property(e => e.Token).HasMaxLength(300);
+
+                entity.HasOne(d => d.User)
+                    .WithMany()
+                    .HasForeignKey(d => d.UserId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("UserSocials_Users_fk");
             });
 
             OnModelCreatingPartial(modelBuilder);

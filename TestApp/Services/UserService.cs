@@ -1,6 +1,5 @@
 using TestApp.Context;
 using TestApp.Entities;
-using TestApp.Models;
 
 namespace TestApp.Services;
 
