@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TestApp.Entities;
 using TestApp.Models;
 using TestApp.Services;
 
@@ -53,7 +54,7 @@ public class WorkController : ApiBaseController
         return Created("", new User
         {
             Id = id,
-            Name = $"Neil:{id}"
+            Displayname = $"Neil:{id}"
         });
     }
 }

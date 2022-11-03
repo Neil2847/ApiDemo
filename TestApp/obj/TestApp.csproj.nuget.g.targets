@@ -3,6 +3,5 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/6.0.3/build/Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/6.0.3/build/Microsoft.Extensions.ApiDescription.Server.targets')" />
     <Import Project="$(NuGetPackageRoot)nswag.aspnetcore/13.17.0/build/NSwag.AspNetCore.targets" Condition="Exists('$(NuGetPackageRoot)nswag.aspnetcore/13.17.0/build/NSwag.AspNetCore.targets')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/7.0.0-rc.2.22472.3/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions/7.0.0-rc.2.22472.3/buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets')" />
   </ImportGroup>
 </Project>

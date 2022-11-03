@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TestApp.Entities;
 using TestApp.Models;
 
 namespace TestApp.Services;
@@ -19,8 +20,7 @@ public class WorkService
             return await Task.FromResult(new User
             {
                 Id = id,
-                Name = $"Neil{id}",
-                age = 20
+                Displayname = $"Neil{id}",
             });
         }
 

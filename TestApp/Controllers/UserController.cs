@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TestApp.Entities;
 using TestApp.Models;
 using TestApp.Services;
 
@@ -56,5 +57,11 @@ public class UserController : ApiBaseController
     public User GetUser(User user)
     {
         return user;
+    }
+
+    [HttpGet]
+    public async Task<List<User>?> GetUsers()
+    {
+        return await _user.GetUsers();
     }
 }

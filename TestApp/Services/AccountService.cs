@@ -1,3 +1,4 @@
+using TestApp.Entities;
 using TestApp.Models;
 
 namespace TestApp.Services;
@@ -20,9 +21,9 @@ public class AccountService
     {
         return await Task.FromResult(new User
         {
-            Name = "Neil",
+            Displayname = "Neil",
             Id = userId,
-            age = 30
+            Email = "33"
         });
     }
 }
