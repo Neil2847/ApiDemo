@@ -1,3 +1,4 @@
+using TestApp.Context;
 using TestApp.Entities;
 using TestApp.Models;
 
@@ -7,11 +8,13 @@ public class UserService
 {
     private readonly ILogger<UserService> _logger;
     private readonly AccountService _account;
+    private readonly MyDbContext _context;
 
-    public UserService(ILogger<UserService> logger, AccountService account)
+    public UserService(ILogger<UserService> logger, AccountService account, MyDbContext context)
     {
         _logger = logger;
         _account = account;
+        _context = context;
     }
 
     /// <summary>
@@ -27,6 +30,6 @@ public class UserService
 
     public async Task<List<User>?> GetUsers()
     {
-        return await Task.FromResult(new List<User>());
+        return await Task.FromResult(_context.Users.ToList().Where(user => user.Email.Contains("yahoo.com")).ToList());
     }
 }

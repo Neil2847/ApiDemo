@@ -33,7 +33,7 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:TestApp.Controllers.UserController.GetUser(TestApp.Models.User)">
+        <member name="M:TestApp.Controllers.UserController.GetUser(TestApp.Entities.User)">
             <summary>
             取得自己的資料 
             </summary>

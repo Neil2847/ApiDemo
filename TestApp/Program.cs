@@ -1,3 +1,4 @@
+using TestApp.Context;
 using TestApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ builder.Services.AddOpenApiDocument();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddSingleton<AccountService>();
 builder.Services.AddScoped<WorkService>();
+builder.Services.AddSingleton<MyDbContext>();
 
 var app = builder.Build();
 
