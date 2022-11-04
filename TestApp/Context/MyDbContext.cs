@@ -35,6 +35,9 @@ namespace TestApp.Context
             {
                 entity.ToTable("Users", "sp");
 
+                entity.HasIndex(e => e.Email, "Users_pk")
+                    .IsUnique();
+
                 entity.Property(e => e.Displayname)
                     .HasMaxLength(50)
                     .HasColumnName("displayname");

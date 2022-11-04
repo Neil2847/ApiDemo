@@ -33,12 +33,14 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:TestApp.Controllers.UserController.GetUser(TestApp.Entities.User)">
+        <member name="M:TestApp.Controllers.UserController.AddUser(TestApp.Entities.User)">
             <summary>
-            取得自己的資料 
+            新增使用者
             </summary>
             <param name="user"></param>
             <returns></returns>
+            <response code="401">資料已存在</response>
+            <response code="201">存入成功</response>
         </member>
         <member name="M:TestApp.Controllers.WorkController.GetById(System.Int32)">
             <summary>
@@ -67,6 +69,18 @@
             取得使用者名稱
             </summary>
             <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestApp.Services.UserService.SaveUser(TestApp.Entities.User)">
+            <summary>
+            加入使用者
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:TestApp.Services.UserService.GetUsers">
+            <summary>
+            取得所有使用者
+            </summary>
             <returns></returns>
         </member>
     </members>

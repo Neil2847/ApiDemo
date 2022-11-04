@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>795</IntrospectionStateNumber>
+      <IntrospectionStateNumber>799</IntrospectionStateNumber>
       <ServerVersion>15.0</ServerVersion>
       <StartupTime>1667446258</StartupTime>
       <TimeZones>true ACDT
@@ -818,7 +818,7 @@ false Zulu
 13471||10|C|G
 13471||-9223372036854775808|U|G
 13471||10|U|G</Grants>
-      <IntrospectionStateNumber>795</IntrospectionStateNumber>
+      <IntrospectionStateNumber>799</IntrospectionStateNumber>
       <ObjectId>16390</ObjectId>
       <Relations>sequence|table|16392|16393|3
 </Relations>
@@ -4242,7 +4242,7 @@ false Zulu
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <schema id="265" parent="4" name="sp">
-      <IntrospectionStateNumber>795</IntrospectionStateNumber>
+      <IntrospectionStateNumber>799</IntrospectionStateNumber>
       <ObjectId>16391</ObjectId>
       <StateNumber>749</StateNumber>
       <OwnerName>mac</OwnerName>
@@ -4318,7 +4318,17 @@ false Zulu
       <StateNumber>753</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="276" parent="268" name="Id">
+    <index id="276" parent="268" name="Users_pk">
+      <ColNames>email</ColNames>
+      <ObjectId>16414</ObjectId>
+      <StateNumber>798</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="277" parent="268" name="Id">
       <ColNames>Id</ColNames>
       <ObjectId>16396</ObjectId>
       <Primary>1</Primary>
@@ -4326,11 +4336,16 @@ false Zulu
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="277" parent="268" name="Id">
+    <key id="278" parent="268" name="Id">
       <ObjectId>16397</ObjectId>
       <Primary>1</Primary>
       <StateNumber>753</StateNumber>
       <UnderlyingIndexId>16396</UnderlyingIndexId>
+    </key>
+    <key id="279" parent="268" name="Users_pk">
+      <ObjectId>16415</ObjectId>
+      <StateNumber>798</StateNumber>
+      <UnderlyingIndexId>16414</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

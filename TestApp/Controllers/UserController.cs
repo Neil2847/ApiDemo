@@ -1,3 +1,4 @@
+using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using TestApp.Entities;
 using TestApp.Models;
@@ -49,18 +50,28 @@ public class UserController : ApiBaseController
     }
 
     /// <summary>
-    /// 取得自己的資料 
+    /// 新增使用者
     /// </summary>
     /// <param name="user"></param>
     /// <returns></returns>
+    /// <response code="401">資料已存在</response>
+    /// <response code="201">存入成功</response>
     [HttpPost]
-    public User GetUser(User user)
+    [ProducesResponseType(StatusCodes.Status401Unauthorized, Type = typeof(MyError))]
+    [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(MyStatus))]
+    public async Task<IActionResult> AddUser(User user)
     {
-        return user;
+        var error = await _user.SaveUser(user);
+        if (error != null)
+        {
+            return Unauthorized(error);
+        }
+
+        return CreatedAtAction("GetUsers", "", user);
     }
 
     [HttpGet]
-    public async Task<List<User>?> GetUsers()
+    public async Task<IEnumerable<User>> GetUsers()
     {
         return await _user.GetUsers();
     }
