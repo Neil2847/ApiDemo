@@ -6,25 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ad3782-56c0-4b0b-b48c-fb4a3401ea4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestApp/Models/MyStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/sp.XQ4AAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/sp.XQ4AAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Context/MyDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Models/MyError.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Models/MyError.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +48,8 @@
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
       &quot;mysql&quot;,
-      &quot;postgresql&quot;
+      &quot;postgresql&quot;,
+      &quot;azure&quot;
     ]
   }
 }</component>
@@ -125,6 +111,9 @@
       <workItem from="1667470950167" duration="463000" />
       <workItem from="1667471840216" duration="236000" />
       <workItem from="1667530023277" duration="23007000" />
+      <workItem from="1667557061303" duration="1093000" />
+      <workItem from="1667788126593" duration="13020000" />
+      <workItem from="1667813652268" duration="1855000" />
     </task>
     <servers />
   </component>
