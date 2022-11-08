@@ -5379,19 +5379,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/mac/.nuget/packages/": {}
+    "/Users/neil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/TestApp.csproj",
+      "projectUniqueName": "/Users/neil/Documents/Workspace/ApiDemo/TestApp/TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/TestApp.csproj",
-      "packagesPath": "/Users/mac/.nuget/packages/",
-      "outputPath": "/Users/mac/Documents/Workspace/C#/ApiDemo/TestApp/obj/",
+      "projectPath": "/Users/neil/Documents/Workspace/ApiDemo/TestApp/TestApp.csproj",
+      "packagesPath": "/Users/neil/.nuget/packages/",
+      "outputPath": "/Users/neil/Documents/Workspace/ApiDemo/TestApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mac/.nuget/NuGet/NuGet.Config"
+        "/Users/neil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -5453,7 +5453,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

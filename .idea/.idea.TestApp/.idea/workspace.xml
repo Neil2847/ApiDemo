@@ -6,59 +6,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ad3782-56c0-4b0b-b48c-fb4a3401ea4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.Identity.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/c9dc373e-a5e0-4c64-a460-df2a8c645a0a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/c9dc373e-a5e0-4c64-a460-df2a8c645a0a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/c9dc373e-a5e0-4c64-a460-df2a8c645a0a/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/c9dc373e-a5e0-4c64-a460-df2a8c645a0a/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/dataSources/7918b055-aeb9-4d49-9abb-41d67dec74fb/storage_v2/_src_/database/subscription.HVlWFA/schema/sp.XQ4AAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/Context/MyDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Context/MyDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Controllers/WorkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Controllers/WorkController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Entities/UserSocial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Entities/UserSocial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Services/AccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Services/AccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/Services/WorkService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/Services/WorkService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/TestApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/TestApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/bin/Debug/net6.0/TestApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/TestApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/ref/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/Debug/net6.0/refint/TestApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/TestApp.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestApp/obj/project.packagespec.json" afterDir="false" />
@@ -71,12 +49,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1c19f6c91fc44a9b8b27052c19a2e4ac8a400/_ab6f1/MediaTypeNames.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5330988bfaacf93f15e30f9b3dd6018a768f89da3b38d874fda77299c62164/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/538811d0fba15c61b743814ea8b7193d48cfbb84a1a53c5db2512b1b329330/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ddb858077e6b406faaee15ae235472fa3cc00/_2c1f2/HttpStatusCode.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb203eba778de93f47a385b296feb302822f96b9844f5283d1eeff34a977c/EntityEntry`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e3133daee343bbb06bd6885714bfb7c4a6221deae751e3f7c03a4b17b4eac0e7/Random.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,24 +63,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.37251908",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;postgresql&quot;,
-      &quot;azure&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "postgresql",
+      "azure"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TestApp">
     <configuration name="TestApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TestApp/TestApp.csproj" />
@@ -169,6 +144,7 @@
       <workItem from="1667788126593" duration="13020000" />
       <workItem from="1667813652268" duration="1943000" />
       <workItem from="1667875073451" duration="8928000" />
+      <workItem from="1667921141335" duration="3567000" />
     </task>
     <servers />
   </component>

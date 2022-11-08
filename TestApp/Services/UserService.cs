@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using TestApp.Context;
 using TestApp.Entities;
 using TestApp.Models;
@@ -36,16 +37,16 @@ public class UserService
         // _context.Entry(user).State = EntityState.Added;
         try
         {
-            var isFind = _context.Users.Any(u => u.Email == user.Email);
-            if (!isFind)
-            {
-                user.Id = new Random().Next(int.MinValue, int.MaxValue);
-                _context.Users.Add(user);
-            }
-            else
-            {
-                return new MyError("找到重複的資料");
-            }
+            //     var isFind = _context.Users.Any(u => u.Email == user.Email);
+            //     if (!isFind)
+            //     {
+            user.Id = new Random().Next(int.MinValue, int.MaxValue);
+            _context.Users.Add(user);
+            // }
+            // else
+            // {
+            //     return new MyError("找到重複的資料");
+            // }
 
             await _context.SaveChangesAsync();
         }
@@ -55,6 +56,14 @@ public class UserService
             return new MyError(e.ToString());
         }
 
+        return null;
+    }
+
+    public MyError? SaveUser2(User user)
+    {
+        user.Id = new Random().Next(int.MinValue, int.MaxValue);
+        _context.Users.Add(user);
+        _context.SaveChanges();
         return null;
     }
 
