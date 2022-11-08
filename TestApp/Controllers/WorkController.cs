@@ -54,7 +54,7 @@ public class WorkController : ApiBaseController
         return Created("", new User
         {
             Id = id,
-            Displayname = $"Neil:{id}"
+            DisplayName = $"Neil:{id}"
         });
     }
 }

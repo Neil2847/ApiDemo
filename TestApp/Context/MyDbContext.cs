@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 using TestApp.Entities;
 
 namespace TestApp.Context
@@ -25,7 +22,7 @@ namespace TestApp.Context
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseNpgsql("Server=127.0.0.1;Port=5432;Database=subscription;User Id=mac;Password=12345;");
+                optionsBuilder.UseSqlServer("Server=tcp:testproject-dev.database.windows.net,1433;Initial Catalog=TestProjectDb;Persist Security Info=False;User ID=testproject;Password=tpdP@ssw0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 
@@ -33,25 +30,19 @@ namespace TestApp.Context
         {
             modelBuilder.Entity<User>(entity =>
             {
-                entity.ToTable("Users", "sp");
-
-                entity.HasIndex(e => e.Email, "Users_pk")
+                entity.HasIndex(e => e.Email, "Users_UK")
                     .IsUnique();
 
-                entity.Property(e => e.Displayname)
-                    .HasMaxLength(50)
-                    .HasColumnName("displayname");
+                entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.Email)
-                    .HasMaxLength(50)
-                    .HasColumnName("email");
+                entity.Property(e => e.DisplayName).HasMaxLength(50);
+
+                entity.Property(e => e.Email).HasMaxLength(50);
             });
 
             modelBuilder.Entity<UserSocial>(entity =>
             {
                 entity.HasNoKey();
-
-                entity.ToTable("UserSocials", "sp");
 
                 entity.Property(e => e.Token).HasMaxLength(300);
 
@@ -59,7 +50,7 @@ namespace TestApp.Context
                     .WithMany()
                     .HasForeignKey(d => d.UserId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("UserSocials_Users_fk");
+                    .HasConstraintName("UserSocials_Users_Id_FK");
             });
 
             OnModelCreatingPartial(modelBuilder);

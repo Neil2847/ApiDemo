@@ -20,7 +20,7 @@ public class WorkService
             return await Task.FromResult(new User
             {
                 Id = id,
-                Displayname = $"Neil{id}",
+                DisplayName = $"Neil{id}",
             });
         }
 

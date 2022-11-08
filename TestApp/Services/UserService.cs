@@ -24,7 +24,7 @@ public class UserService
     /// <returns></returns>
     public async Task<string> GetUserName(int userId)
     {
-        return (await _account.GetUser(userId)).Displayname;
+        return (await _account.GetUser(userId)).DisplayName;
     }
 
     /// <summary>
@@ -39,6 +39,7 @@ public class UserService
             var isFind = _context.Users.Any(u => u.Email == user.Email);
             if (!isFind)
             {
+                user.Id = new Random().Next(int.MinValue, int.MaxValue);
                 _context.Users.Add(user);
             }
             else

@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="RD-222.4167.23">
-    <data-source name="postgres@localhost" uuid="7918b055-aeb9-4d49-9abb-41d67dec74fb">
-      <database-info product="PostgreSQL" version="15.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.0" exact-driver-version="42.5">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>mac</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="database" qname="subscription">
-            <node kind="schema">
-              <name qname="public" />
-              <name qname="sp" />
-            </node>
-          </node>
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
     <data-source name="mssql@azure" uuid="c9dc373e-a5e0-4c64-a460-df2a8c645a0a">
       <database-info product="Microsoft SQL Server" version="12.00.816" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 11.2 for SQL Server" driver-version="11.2.0.0" dbms="AZURE" exact-version="12.0.816" exact-driver-version="11.2">
         <extra-name-characters>$#@</extra-name-characters>
@@ -29,8 +11,8 @@
       <user-name>testproject</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
+          <node kind="database" qname="TestProjectDb">
+            <node kind="schema" qname="dbo" />
           </node>
         </introspection-scope>
       </schema-mapping>
